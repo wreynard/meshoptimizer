@@ -6,7 +6,7 @@
 	project "meshoptimizer"
 		kind "StaticLib"
 		language "C++"
-		cppdialect "C++17"
+		cppdialect "C++20"
 		targetdir ("%{prj.location}/bin/%{cfg.platform}/%{cfg.buildcfg}")
 		objdir "%{prj.location}/obj/%{prj.name}/%{cfg.platform}/%{cfg.buildcfg}"
 
